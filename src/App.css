@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#app > header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4A90E2;
+  padding: 20px 30px;
+}
+
+header .my-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.my-profile span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.my-profile .material-icons {
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  max-width: 750px;
+  margin: 30px auto;
+}
+
+main .post-section {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.post-section header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post-section header > img {
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.post-section header > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.post-section div h3 {
+  color: #4a4a4a;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.post-section div span {
+  color: #c2c2c2;
+  font-size: 12px;
+}
+
+.post-section > p {
+  color: #606060;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.post-section .comments-sections {
+  border-top: 1px solid #eee;
+  padding: 15px 5px;
+}
+
+.post-section .comment-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.post-section .comment-box + .comment-box {
+  margin-top: 10px;
+}
+
+.comment-box img {
+  background-color: #eee;
+  border-radius: 15px;
+}
+
+.comment-box p {
+  color: #606060;
+  font-size: 13px;
+  word-spacing: 1.6px;
+  line-height: 1.5;
+  background-color: #eee;
+  border-radius: 15px;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.comment-box p strong {
+  color: #4a4a4a;
+  margin-right: 4px;
+}
